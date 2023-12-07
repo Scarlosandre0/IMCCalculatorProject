@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity2">
+
+    <TextView
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="16dp"
+        android:text="Seu IMC é: "
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:padding="16dp"
+        tools:text="22.104"
+        android:layout_height="wrap_content"
+        android:textSize="38sp"
+        android:text="New Leyout"/>
+
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Classificação: Normal " />
+
+    <TextView
+        android:text="VEJA ABAIXO A TABLE:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text=" MENOR QUE 18.5 ABAIXO DO PESO:" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text=" ENTRE 18.5 E 24.9 PESO NORMAL:" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text=" ENTRE 25.0 E 29.9 SOBREPESO I:" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text=" ENTRE 30.0 E 39.9 OBSIDADE II:" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text=" MAIOR QUE 40.0 OBESIDADE GRAVE III:" />
+
+</LinearLayout>
+
+
